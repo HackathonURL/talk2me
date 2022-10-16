@@ -16,7 +16,7 @@
         <c:forEach items="${doctor}" var="st">
             <h1>${st.avarta}</h1>
             <h1>${st.nameDoctor}</h1>
-            <a href="<c:url value="/doctor/doctorDetail.do"/>">View Detail Doctor</a>
+            <a href="<c:url value="/doctor/${st.phone}.do"/>">View Detail Doctor</a>
             <br/>
         </c:forEach>
     </body>

@@ -10,6 +10,7 @@
     <body>
         <h1>Talk2Me</h1>
         <a href="<c:url value="/home/index.do"/>">Trang Chủ</a>
+        <a href="<c:url value="/doctor/doctorView.do"/>">Thông Tin Bác Sĩ</a>
         <a href="<c:url value="/booking/booking.do"/>">Đặt Lịch Hẹn</a>
         <a href="<c:url value="/user/login.do"/>">Đăng Nhập</a>
         
